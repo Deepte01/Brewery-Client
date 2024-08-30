@@ -9,9 +9,6 @@ import org.springframework.web.client.RestTemplate;
 import java.net.URI;
 import java.util.UUID;
 
-/**
- * Created by jt on 2019-04-23.
- */
 @ConfigurationProperties(prefix = "sfg.brewery", ignoreUnknownFields = false)
 @Component
 public class BreweryClient {
